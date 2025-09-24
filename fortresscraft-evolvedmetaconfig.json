@@ -1,0 +1,12 @@
+[
+    {
+        "ConfigFile": "firstrun.ini",
+        "ConfigType": "ini",
+        "AutoMap": true
+    },
+    {
+        "ConfigFile": "serveroverride.ini",
+        "ConfigType": "ini",
+        "AutoMap": true
+    }
+]
