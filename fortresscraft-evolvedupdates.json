@@ -1,12 +1,13 @@
 [
     {
-        "UpdateStageName": "",
+        "UpdateStageName": "Steam Download",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "SteamCMD",
         "UpdateSourceArgs": "443600 ",
         "UpdateSourceVersion": "linux_server_headless",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
+        "ForceDownloadPlatform": "Linux",
         "DeleteAfterExtract": true,
         "OneShot": false
     }
