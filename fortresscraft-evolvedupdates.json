@@ -40,7 +40,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "CopyFilePath",
         "UpdateSourceData": "{{$FullBaseDir}}serveroverrides.ini",
-        "UpdateSourceArgs": "{{$FullBaseDir}}Default/Example Server Ini files/firstrun.ini",
+        "UpdateSourceArgs": "{{$FullBaseDir}}Default/Example Server Ini files/serveroverrides.ini",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": false,

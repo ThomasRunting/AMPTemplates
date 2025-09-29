@@ -5,7 +5,7 @@
         "AutoMap": true
     },
     {
-        "ConfigFile": "serveroverride.ini",
+        "ConfigFile": "serveroverrides.ini",
         "ConfigType": "ini",
         "AutoMap": true
     }
