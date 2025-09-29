@@ -1,14 +1,25 @@
 [
     {
-        "UpdateStageName": "Steam Download",
+        "UpdateStageName": "Steam Linux",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "443600 ",
-        "UpdateSourceArgs": "443600 ",
+        "UpdateSourceData": "443600",
+        "UpdateSourceArgs": "443600",
         "UpdateSourceVersion": "linux_server_headless",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "ForceDownloadPlatform": "Linux",
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Steam Win",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "443600",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "ForceDownloadPlatform": "Windows",
         "DeleteAfterExtract": true,
         "OneShot": false
     }
