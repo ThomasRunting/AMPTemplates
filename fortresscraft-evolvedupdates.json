@@ -22,5 +22,27 @@
         "ForceDownloadPlatform": "Windows",
         "DeleteAfterExtract": true,
         "OneShot": false
+    },
+    {
+        "UpdateStageName": "Firstrun.ini Copy",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "CopyFilePath",
+        "UpdateSourceData": "443600/firstrun.ini",
+        "UpdateSourceArgs": "443600/Default/Example Server Ini files/firstrun.ini",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": false,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "serveroverrides.ini Copy",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "CopyFilePath",
+        "UpdateSourceData": "443600/serveroverrides.ini",
+        "UpdateSourceArgs": "443600/Default/Example Server Ini files/firstrun.ini",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": false,
+        "OneShot": false
     }
 ]
